@@ -1,0 +1,16 @@
+ tweet_collect_whole
+ On va créer une fonction qui récolte tout ce qui est dit sur le candidats et son parti par les autres utisateurs
+      arguments: le nom du candidats, son parti
+      sortie:un tableau avec autant de lignes que de candidats contenant le text des tweets
+ 
+ collect_candidate_actuality_tweets 
+ On va créer une fonction qui permet de capter tout les tweets de notre candidat
+     arguments:l'id du compte candidats ou son user name (@lenomducandidat)
+    sortie:un tableau avec autant de lignes que de candidats contenant le text des tweets
+ 
+ collect_candidate_tweet_activity 
+ On va écrire une fonction avec strem qui permet de capter en temps réels ce qui est dit sur un cadidats, 
+       arguments: le nom du candidats, de son partie
+       sortie:un tableau avec autant de lignes que de candidats contenant le text des tweets
+      
+ Si on est assez doué on peut tenter de regrouper par geolocalisations, langues
