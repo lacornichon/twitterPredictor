@@ -2,9 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc0eca42-c65b-4bbc-97b7-2f2c5631834a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/twitter_collect/search.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter_collect/user.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/twitterPredictor/credentials.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitterPredictor/credentials.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter_collect/search.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter_collect/search.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -22,33 +23,33 @@
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="py" value="7" />
+          <entry key="py" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Python" value="7" />
+          <entry key="Python" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="py" value="929" />
+          <entry key="py" value="1224" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Python" value="929" />
+          <entry key="Python" value="1224" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="187">
-              <caret line="11" selection-start-line="11" selection-end-line="11" />
+            <state relative-caret-position="34">
+              <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -57,15 +58,22 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitterPredictor/__init__.py">
-          <provider selected="true" editor-type-id="text-editor" />
+        <entry file="file://$PROJECT_DIR$/twitter_collect/user.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="136">
+              <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
+              <folding>
+                <marker date="1542191418336" expanded="true" signature="72:77" ph="..." />
+              </folding>
+            </state>
+          </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter_collect/test_monmodule.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="17">
-              <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+              <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
               </folding>
@@ -73,14 +81,14 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/twitter_collect/search.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="68">
-              <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+            <state>
+              <caret selection-end-column="52" />
               <folding>
-                <marker date="1542189759566" expanded="true" signature="68:239" ph="..." />
-                <marker date="1542189759566" expanded="true" signature="237:238" ph="..." />
+                <marker date="1542191054034" expanded="true" signature="73:253" ph="..." />
+                <marker date="1542191054034" expanded="true" signature="251:252" ph="..." />
               </folding>
             </state>
           </provider>
@@ -90,7 +98,7 @@
         <entry file="file://$PROJECT_DIR$/twitterPredictor/credentials.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="136">
-              <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
+              <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
             </state>
           </provider>
         </entry>
@@ -111,10 +119,11 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/twitterPredictor/__init__.py" />
-        <option value="$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py" />
         <option value="$PROJECT_DIR$/twitter_collect/test_monmodule.py" />
         <option value="$PROJECT_DIR$/twitterPredictor/credentials.py" />
         <option value="$PROJECT_DIR$/twitter_collect/search.py" />
+        <option value="$PROJECT_DIR$/twitter_collect/user.py" />
+        <option value="$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py" />
       </list>
     </option>
   </component>
@@ -168,7 +177,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.search">
+  <component name="RunManager" selected="Python.user">
     <configuration name="credentials" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitterPredictor" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -232,19 +241,25 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="pytest for test_monmodule.test_connect" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
+    <configuration name="user" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitterPredictor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_collect" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;test_monmodule.test_connect&quot;" />
-      <option name="_new_targetType" value="&quot;PYTHON&quot;" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_collect/user.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
     <configuration name="pytest in test_monmodule.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
@@ -266,16 +281,16 @@
       <item itemvalue="Python.twitter_connection_setup" />
       <item itemvalue="Python.credentials" />
       <item itemvalue="Python tests.pytest in test_monmodule.py" />
-      <item itemvalue="Python tests.pytest for test_monmodule.test_connect" />
       <item itemvalue="Python.search" />
+      <item itemvalue="Python.user" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.user" />
         <item itemvalue="Python.search" />
         <item itemvalue="Python tests.pytest in test_monmodule.py" />
         <item itemvalue="Python.credentials" />
         <item itemvalue="Python.twitter_connection_setup" />
-        <item itemvalue="Python tests.pytest for test_monmodule.test_connect" />
       </list>
     </recent_temporary>
   </component>
@@ -299,6 +314,9 @@
       <configuration name="pytest in test_monmodule.py" configurationId="tests" />
     </history-entry>
     <history-entry file="pytest_in_test_monmodule_py - 2018.11.14 at 10h 54m 00s.xml">
+      <configuration name="pytest in test_monmodule.py" configurationId="tests" />
+    </history-entry>
+    <history-entry file="pytest_in_test_monmodule_py - 2018.11.14 at 11h 04m 53s.xml">
       <configuration name="pytest in test_monmodule.py" configurationId="tests" />
     </history-entry>
   </component>
@@ -326,49 +344,59 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/twitterPredictor/__init__.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitter_collect/__init__.py">
       <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitterPredictor/credentials.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="63" selection-start-line="8" selection-start-column="63" selection-end-line="8" selection-end-column="63" />
-        </state>
-      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter_collect/test.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_collect/test_monmodule.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="17">
-          <caret line="1" column="52" lean-forward="true" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
+    <entry file="file://$PROJECT_DIR$/twitterPredictor/__init__.py">
+      <provider selected="true" editor-type-id="text-editor" />
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py">
+    <entry file="file://$PROJECT_DIR$/twitter_collect/user.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="187">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        <state relative-caret-position="136">
+          <caret line="8" lean-forward="true" selection-start-line="8" selection-end-line="8" />
           <folding>
-            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1542191418336" expanded="true" signature="72:77" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter_collect/search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="68">
-          <caret line="4" column="54" lean-forward="true" selection-start-line="4" selection-start-column="54" selection-end-line="4" selection-end-column="54" />
+        <state>
+          <caret selection-end-column="52" />
           <folding>
-            <marker date="1542189759566" expanded="true" signature="68:239" ph="..." />
-            <marker date="1542189759566" expanded="true" signature="237:238" ph="..." />
+            <marker date="1542191054034" expanded="true" signature="73:253" ph="..." />
+            <marker date="1542191054034" expanded="true" signature="251:252" ph="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/test_monmodule.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="52" selection-start-line="1" selection-start-column="52" selection-end-line="1" selection-end-column="52" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitterPredictor/credentials.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" lean-forward="true" selection-start-line="2" selection-end-line="2" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
