@@ -1,13 +1,14 @@
 from twitter_collect import twitter_connection_setup
 
-liste_tweet_text=[]
-liste_tweet=[]
+
 
 #entrer : une requete
 #sortie: un tableau des texts des 100 derniers tweets ou apprarrait la requete, et les tweet avec toutes les info(json
 def collect(query):
+    liste_tweet_text=[]
+    liste_tweet=[]
     connexion = twitter_connection_setup.twitter_setup()
-    tweets = connexion.search(query,language="french",rpp=1)
+    tweets = connexion.search(query,language="french",rpp=100)
     for tweet in tweets:
         liste_tweet_text.append(tweet.text)
         print(tweet.text)
