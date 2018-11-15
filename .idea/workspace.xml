@@ -171,8 +171,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.storage">
-    <configuration name="credentials" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.management_dataframe">
+    <configuration name="management_dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitterPredictor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -180,11 +180,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitterPredictor" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitterPredictor/credentials.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_analysis/management_dataframe.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -273,18 +273,18 @@
     </configuration>
     <list>
       <item itemvalue="Python tests.pytest in test_dataframe.py" />
-      <item itemvalue="Python.credentials" />
       <item itemvalue="Python.search" />
       <item itemvalue="Python.twitter_connection_setup" />
       <item itemvalue="Python.storage" />
+      <item itemvalue="Python.management_dataframe" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.management_dataframe" />
         <item itemvalue="Python.storage" />
         <item itemvalue="Python tests.pytest in test_dataframe.py" />
         <item itemvalue="Python.search" />
         <item itemvalue="Python.twitter_connection_setup" />
-        <item itemvalue="Python.credentials" />
       </list>
     </recent_temporary>
   </component>

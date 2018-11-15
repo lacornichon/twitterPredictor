@@ -13,8 +13,8 @@ def analyser_info(data):
     print("The tweet with more retweets is: \n{}".format(data['tweet_textual_content'][rt]))
     print("Number of retweets: {}".format(rt_max))
     print("{} characters.\n".format(data['len'][rt]))
-    hashtag_max=np.max(data['hasthag'].value_counts())_
-    hashtag=data[data.hashtag=hashtag_max].index[5]
+    hashtag_max=np.max(data['hasthag'].value_counts())
+    hashtag=data[data.hashtag==hashtag_max].index[5]
     print("The most used hasthag is:" + hashtag )
 
-    
+
