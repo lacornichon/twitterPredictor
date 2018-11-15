@@ -10,7 +10,7 @@ import json
 def collect_tweet(query):
     liste_tweet=[]
     connexion = twitter_connection_setup.twitter_setup()
-    tweets = connexion.search(query,language="french",rpp=100)
+    tweets = connexion.search(query,language="french",rpp=1)
     for tweet in tweets:
         liste_tweet.append(tweet._json)     #pour recuperer json
     #print(liste_tweet)
@@ -23,7 +23,13 @@ def collect_tweet(query):
 #entrée: un tweet json, nom du fichier qui va être créée et où on va stocker le json
 #sortie: lefichier avec le json
 
-def lavage(tweets):
+
+
+
+#entrée: tweets est un dico qui possede les attribut d'un tweet
+def store_et_lavage_tweets(query,filename):                                   #pour enregistrer
+    connexion = twitter_connection_setup.twitter_setup()
+    tweets = connexion.search(query,language="french",rpp=1)               #on recupère juste un tweet
     tweet_lave={}
     tweet_lave['text']=tweets.text
     tweet_lave['id']=tweets.id
@@ -31,20 +37,22 @@ def lavage(tweets):
     tweet_lave['teweet_count']=tweets.retweet_count
     tweet_lave['created_at']=tweets.creeated_at
     tweet_lave['hastags']=tweets.hashtags
-    return(json.dumps(tweet_lave))   #pour convertir dico en json
-
-
-
-#entrée: tweets est un dico qui possede les attribut d'un tweet
-def store_et_lavage_tweets(tweets, filename):
-    #tweet_dico=json.load(tweets)  pour convertir json en dico
-    tweets_lavé=lavage(tweets)
     fichier=open(filename,"w")
-    json.dump(tweets_lavé,fichier)
+    json.dump(tweet_lave,fichier)
     fichier.close()
 
 #store_tweets(tweet_test, "test.json")
-def dataframe(tweets):
-    tweet_propre=lavage(tweets)
-    Dataframe= pd.DataFrame(tweet_propre)
+def dataframe(query):
+    connexion = twitter_connection_setup.twitter_setup()
+    tweets = connexion.search(query,language="french",rpp=1)
+    tweet_lave={}
+    tweet_lave['text']=tweets.text
+    tweet_lave['id']=tweets.id
+    tweet_lave['retweeted']=tweets.retweeted
+    tweet_lave['teweet_count']=tweets.retweet_count
+    tweet_lave['created_at']=tweets.creeated_at
+    tweet_lave['hastags']=tweets.hashtags
+    Dataframe= pd.DataFrame(tweet_lave)
     return Dataframe
+
+dataframe("président")
