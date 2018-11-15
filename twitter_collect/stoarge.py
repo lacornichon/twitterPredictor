@@ -16,14 +16,31 @@ def collect_tweet(query):
     return liste_tweet
 
 tweet_test=collect_tweet("macron")[0]
+print(type(tweet_test))
 
 
 #entrée: un tweet json, nom du fichier qui va être créée et où on va stocker le json
 #sortie: lefichier avec le json
 
-def store_tweets(tweets,filename):
+def lavage(tweets):
+    tweet_lave={}
+    tweet_lave['text']=tweets.text
+    tweet_lave['id']=tweets.id
+    tweet_lave['retweeted']=tweets.retweeted
+    tweet_lave['teweet_count']=tweets.retweet_count
+    tweet_lave['created_at']=tweets.creeated_at
+    tweet_lave['hastags']=tweets.hashtags
+    return(json.dumps(tweet_lave))   #pour convertir dico en json
+
+
+
+#entrée: tweets est un dico qui possede les attribut d'un tweet
+def store_et_lavage_tweets(tweets):
+    #tweet_dico=json.load(tweets)  pour convertir json en dico
+    tweets_lavé=lavage(tweets)
     fichier=open(filename,"w")
-    json.dump(tweets,fichier)
+    json.dump(tweets_lavé,fichier)
     fichier.close()
 
-store_tweets(tweet_test, "test.json")
+#store_tweets(tweet_test, "test.json")
+
