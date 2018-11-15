@@ -39,10 +39,11 @@ print (get_candidate_(1,'CandidateData'))
 #entrée num-candidate, file_path
 #sortie : dico de clé:mot clé et associé aux 200 dernier tweets contenant mot clé
 
-tweets_keywords={}
-tweets_hastag={}
+
 
 def get_candidate_queries(num_candidate, file_path):
+    tweets_keywords={}
+    tweets_hastag={}
     queries_hastag=[]
     queries_keywords=[]
     queries_keywords=get_candidate_(num_candidate,file_path)[0]
