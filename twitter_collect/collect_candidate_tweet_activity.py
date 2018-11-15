@@ -1,30 +1,18 @@
-from twitter_collect import user
+from twitter_collect import search
 from twitter_collect import twitter_connection_setup
-api= twitter_connection_setup.twitter_setup()
 
-#dico contient
-def get_retweets_of_candidate(num_candidate):
-    screen_name_candidat = recuperer_candidate(num_candidate)  #verif screen
-    tweets=api.user_timeline(screen_name=screen_name_candidat, count=200)
-    for tweet in tweets:
-        if retweeted:
-            retweets=api.retweets(tweet.id)
-    return retweets
+twitter_api=twitter_connection_setup.twitter_setup()
 
+""""étant donnée une liste queries de requêtes (de type search) et une instance de connexion twitter_api récupére et 
+renvoie les tweets répondant aux différentes requêtes."""
 
-
-def recuperer_candidate(num_candidate):
-    path_keyword= "C:/Users/valen/Documents/programmation/twitterPredictor/CandidateData/keywords_candidate_" + str(num_candidate) +".txt"
-    fichier_keyword = open("path_keyword","r")
-    contenu_keyword=fichier_keyword.read()
-    keyword= contenu_keyword.split(" ")
-    return keyword[0] + keyword[1]                                       #le premier mot de chquaque fichier est le prenom puis nom
-
-
-
-
-
-public_tweets = api.search("stackoverflow")
-for tweet in public_tweets:
-    print api.retweets(tweet.id)
-
+def get_tweets_from_candidates_search_queries(queries,twitter_api):
+    tweets={}
+    try:
+        for q in queries:
+            tweets[q]=search.collect(q)
+        return tweets
+    except TweepError:
+		print(TweepError.response.text)
+	except RateLimitError:
+        print("RateLimitError")
