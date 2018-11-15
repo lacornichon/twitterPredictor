@@ -1,4 +1,5 @@
 {
+  "test_dataframe.py": true,
   "test_dataframe.py::test_collect": true,
   "test_nomdumoduleatester.py": true,
   "test_nomdumoduleatester.py::test_collect": true
