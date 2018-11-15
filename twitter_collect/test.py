@@ -1,2 +1,0 @@
-import ffmpeg
-print(ffmpeg)
