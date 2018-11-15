@@ -4,7 +4,15 @@ import matplotlib.pyplot as plt
 from twitter_collect import twitter_connection_setup
 import json
 
-query="macron"
+"""comment tranfo un dico python en object json
+Dump and load convert between files and objects, while dumps and loads convert between strings and objects.
+
+import json
+with open("data_file.json", "w") as write_file:
+    json.dump(data, write_file)                                     permet de créer un dossier data_file qui contient le json
+
+json_string = json.dumps(data)                                      permet de
+"""
 
 def collect_tweet(query):
     liste_tweet=[]
