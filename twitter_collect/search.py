@@ -1,16 +1,21 @@
 from twitter_collect import twitter_connection_setup
 
-#entrer : une requete
-#sortie: un tableau des texts des 100 derniers tweets ou apprarrait la requete, et les tweet avec toutes les info
-def collect(query):
-    api= twitter_connection_setup.twitter_setup()
-    tweets=api.search(query,rpp=100)  #rpp max 100
-    liste_tweet=[]
-    tweets=[]
-    for tweet in tweets:
-        liste_tweet.append(tweet.text)
-        print(liste_tweet)
-    return liste_tweet, tweets
+liste_tweet_text=[]
+liste_tweet=[]
 
-collect("@Emmanuelmacron")
+#entrer : une requete
+#sortie: un tableau des texts des 100 derniers tweets ou apprarrait la requete, et les tweet avec toutes les info(json
+def collect(query):
+    connexion = twitter_connection_setup.twitter_setup()
+    tweets = connexion.search(query,language="french",rpp=1)
+    for tweet in tweets:
+        liste_tweet_text.append(tweet.text)
+        print(tweet.text)
+        liste_tweet.append(tweet._json)
+    print(tweets)
+    return liste_tweet, liste_tweet_text
+
+
+print(collect("@Emmanuelmacron"))
+
 
