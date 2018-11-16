@@ -6,12 +6,17 @@ def collect(query):
     liste_tweet=[]
     connexion = twitter_connection_setup.twitter_setup()
     tweets = connexion.search(query,language="french",rpp=10)
-    return tweets
+    for tweet in tweets:
+        liste_tweet_text.append(tweet.text)
+    return liste_tweet_text
 
-tweets=collect("macron")
+list_tweet_text=collect("macron")
+print(type(list_tweet_text))
+str_tweets=",".join(list_tweet_text)
+print(str_tweets)
+print(type(str_tweets))
 
-wordlist=[]
-for word in tweets.words:
-    wordlist.append(word)
-word_unique=set(wordlist)                #on veut les mots qui n'apparaissent qu'une fois
+wordlist=TextBlob(str_tweets)
+print(wordlist.words)
+                #on veut les mots qui n'apparaissent qu'une fois
 
