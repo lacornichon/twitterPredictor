@@ -86,7 +86,7 @@ def dataframe_comparaison(queries):
     data['Likes']  = np.array([tweet.favorite_count for tweet in tweets])
     data['retweet_count']    = np.array([tweet.retweet_count for tweet in tweets])
     data['about']= np.array([tweet.about for tweet in tweets])
-    data['pos']= np.array([tweet.positivity for tweet in tweets])
+    data['pos']= np.array([tweet.positivity+1 for tweet in tweets])
     return data
 
 
