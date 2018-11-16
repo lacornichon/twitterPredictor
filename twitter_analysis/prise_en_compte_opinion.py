@@ -17,7 +17,7 @@ def collect(query):
         liste_tweet_text.append(tweet.text)
     return liste_tweet_text
 
-""""on def, tweet positif pour polarité>0.3, négatifs pour polarité<-0.3"""
+""""on def, tweet positif pour polarité>0.1, négatifs pour polarité<-0.1"""
 def collect_opinion(query):
     #pb de genre
     tweets=collect(query)
@@ -29,9 +29,9 @@ def collect_opinion(query):
     moyenne=sum(tweets_polarity)/len(tweets_polarity)
     pos,neg,neutre=0,0,0
     for sentiment in tweets_polarity:
-        if sentiment<-0.3:
+        if sentiment<-0.1:
             neg+=1
-        elif sentiment>0.3:
+        elif sentiment>0.1:
             pos+=1
         else:
             neutre+=1
