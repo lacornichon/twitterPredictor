@@ -71,5 +71,6 @@ def dataframe(query):
     data['Source'] = np.array([tweet.source for tweet in tweets])
     data['Likes']  = np.array([tweet.favorite_count for tweet in tweets])
     data['retweet_count']    = np.array([tweet.retweet_count for tweet in tweets])
+    data['about']=query
     return data
 
