@@ -18,5 +18,6 @@ print(type(str_tweets))
 
 wordlist=TextBlob(str_tweets)
 print(wordlist.words)
+wordlist_unique=set(wordlist)
                 #on veut les mots qui n'apparaissent qu'une fois
 
