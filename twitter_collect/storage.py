@@ -74,3 +74,24 @@ def dataframe(query):
     data['about']=query
     return data
 
+
+def dataframe_comparaison(queries):
+    connexion = twitter_connection_setup.twitter_setup()
+    tweets=[]
+    for query in queries:
+        add=connexion.search(query,language="fr",rpp=50)
+        for k in range(len(add)):
+            add[k].about=query
+        tweets = tweets + add
+    data = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['tweet_textual_content'])
+    data = pd.DataFrame(data=[tweet.text for tweet in tweets], columns=['tweet_textual_content'])
+    data['len']= np.array([len(tweet.text) for tweet in tweets])
+    data['ID']   = np.array([tweet.id for tweet in tweets])
+    data['created_at'] = np.array([tweet.created_at for tweet in tweets])
+    data['Source'] = np.array([tweet.source for tweet in tweets])
+    data['Likes']  = np.array([tweet.favorite_count for tweet in tweets])
+    data['retweet_count']    = np.array([tweet.retweet_count for tweet in tweets])
+    data['about']= np.array([tweet.about for tweet in tweets])
+    return data
+
+
