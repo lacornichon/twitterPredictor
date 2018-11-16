@@ -2,28 +2,31 @@
 import dash
 import dash_core_components as dcc
 import dash_html_components as html
+from twitter_analysis import prise_en_compte_opinion
 
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
 """on def un object app avec un constructeur Dash, puis on lui aplliquera des methodes et on utlisiera ces propriétés"""
 
+queries=["Chocolatine","Pain au chocolat"]
+
 app.layout = html.Div(children=[                                   #comme en html, balise Div et H1, imbriquées
-    html.H1(children='Hello Dash'),
+    html.H1(children='Hello my name is winner'),
 
     html.Div(children='''
-        Dash: A web application framework for Python.
+        Dash: A cool way to make funny twitter.
     '''),
 
     dcc.Graph(
-        id='example-graph',
+        id='popularity_compare',
         figure={
             'data': [
-                {'x': [1, 2, 3], 'y': [4, 1, 2], 'type': 'bar', 'name': 'SF'},
-                {'x': [1, 2, 3], 'y': [2, 4, 5], 'type': 'bar', 'name': u'Montréal'},
+                {'x': ["pos", "neg", "neutre"], 'y': prise_en_compte_opinion.collect_opinion(queries[0]), 'type': 'bar', 'name': queries[0]},
+                {'x': ["pos", "neg", "neutre"], 'y': prise_en_compte_opinion.collect_opinion(queries[1]), 'type': 'bar', 'name': queries[1]},
             ],
             'layout': {
-                'title': 'Dash Data Visualization'
+                'title': 'who is the best?'
             }
         }
     )
