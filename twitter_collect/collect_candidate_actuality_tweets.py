@@ -9,7 +9,7 @@ def get_retweets_of_candidate(num_candidate):
     screen_name_candidat = recuperer_candidate(num_candidate)  #verif screen
     tweets=api.user_timeline(screen_name=screen_name_candidat, count=200)
     for tweet in tweets:
-        if retweeted:
+        if tweet.retweeted:
             retweets=api.retweets(tweet.id)
     return retweets
 
@@ -28,4 +28,4 @@ def recuperer_candidate(num_candidate):
 
 public_tweets = api.search("stackoverflow")
 for tweet in public_tweets:
-    print api.retweets(tweet.id)
+    print(api.retweets(tweet.id))
