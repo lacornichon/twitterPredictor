@@ -19,19 +19,11 @@ def collect(query):
 
 #pb de genre
 tweets=collect("macron")
-print(tweets)
-print(type(tweets))
-str_tweets=",".join(tweets)
-print(str_tweets)
-print(type(str_tweets))
-#list_tweets=str_tweets.split(" ")
-#print(list_tweets)
-#print(type(list_tweets))
-""" il faut tous convertir en un tableau de mots car sinon on ne peut pas utiliser les modules de textblob"""
+tweets_blob=TextBlob('.'.join(tweets))
 
 tweets_polarity=[]
-for tweet in str_tweets.sentences:
-    tweets_polarity.append(tweet.sentiment.polarity)
+for sentences in tweets_blob.sentences:
+    tweets_polarity.append(sentences.sentiment.polarity)
 moyenne=sum(tweets_polarity)/len(tweets_polarity)
 
 """"on def, tweet positif pour polarité>0.3, négatifs pour polarité<-0.3"""
