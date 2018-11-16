@@ -2,9 +2,18 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cc0eca42-c65b-4bbc-97b7-2f2c5631834a" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/twitter_analysis/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/twitter_analysis/management_dataframe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dash_visual/exemple_graphe.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dash_visual/exemple_graphe2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dash_visual/exemple_graphe3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Dash_visual/exemple_graphe4.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkingDocs/dash.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WorkingDocs/~$dash.odt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/twitter_collect/.coverage" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/inspectionProfiles/Project_Default.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/twitterPredictor.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/twitterPredictor.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/twitter_analysis/prise_en_compte_opinion.py" beforeDir="false" afterPath="$PROJECT_DIR$/twitter_analysis/prise_en_compte_opinion.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/~$json.odt" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,34 +25,37 @@
     <session id="361613111">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="1" />
+          <entry key="project.closed" value="2" />
           <entry key="project.open.time.2" value="1" />
+          <entry key="project.open.time.4" value="1" />
           <entry key="project.open.time.5" value="1" />
-          <entry key="project.opened" value="2" />
+          <entry key="project.open.time.8" value="1" />
+          <entry key="project.opened" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="json" value="1" />
-          <entry key="py" value="31" />
+          <entry key="py" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="JSON" value="1" />
-          <entry key="Python" value="31" />
+          <entry key="Python" value="57" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
+          <entry key="Python Console" value="94" />
           <entry key="dummy" value="40" />
-          <entry key="py" value="5000" />
+          <entry key="py" value="8442" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="PLAIN_TEXT" value="40" />
-          <entry key="Python" value="5000" />
+          <entry key="Python" value="8536" />
         </counts>
       </usages-collector>
     </session>
@@ -51,26 +63,24 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/twitter_collect/storage.py">
+        <entry file="file://$PROJECT_DIR$/Dash_visual/exemple_graphe3.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="170">
-              <caret line="31" column="102" selection-start-line="31" selection-start-column="102" selection-end-line="31" selection-end-column="102" />
+            <state relative-caret-position="-596">
+              <caret line="11" column="109" selection-start-line="11" selection-start-column="109" selection-end-line="11" selection-end-column="109" />
               <folding>
-                <element signature="e#0#19#0" expanded="true" />
-                <marker date="1542297416008" expanded="true" signature="721:724" ph="..." />
-                <marker date="1542297416008" expanded="true" signature="1461:1851" ph="..." />
+                <element signature="e#24#35#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/twitter_analysis/management_dataframe.py">
+        <entry file="file://$PROJECT_DIR$/Dash_visual/exemple_graphe4.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="323">
-              <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+            <state relative-caret-position="390">
+              <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
               <folding>
-                <element signature="e#0#18#0" expanded="true" />
+                <element signature="e#0#11#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -107,10 +117,19 @@
         <option value="$PROJECT_DIR$/twitterPredictor/credentials.py" />
         <option value="$PROJECT_DIR$/twitter_collect/storage.py" />
         <option value="$PROJECT_DIR$/twitter_analysis/management_dataframe.py" />
+        <option value="$PROJECT_DIR$/twitter_analysis/graphique.py" />
+        <option value="$PROJECT_DIR$/twitter_analysis/text_blob.py" />
+        <option value="$PROJECT_DIR$/twitter_analysis/prise_en_compte_opinion.py" />
+        <option value="C:/ProgramData/Anaconda3/Lib/site-packages/nltk/analyse_result.py" />
+        <option value="$PROJECT_DIR$/Dash_visual/app.py" />
+        <option value="$PROJECT_DIR$/Dash_visual/exemple_graphe2.py" />
+        <option value="$PROJECT_DIR$/Dash_visual/exemple_graphe.py" />
+        <option value="$PROJECT_DIR$/Dash_visual/exemple_graphe3.py" />
+        <option value="$PROJECT_DIR$/Dash_visual/exemple_graphe4.py" />
       </list>
     </option>
   </component>
-  <component name="ProjectFrameBounds">
+  <component name="ProjectFrameBounds" extendedState="6">
     <option name="x" value="952" />
     <option name="width" value="977" />
     <option name="height" value="1038" />
@@ -133,6 +152,11 @@
               <item name="twitterPredictor" type="b2602c69:ProjectViewProjectNode" />
               <item name="twitterPredictor" type="462c0819:PsiDirectoryNode" />
               <item name="CandidateData" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="twitterPredictor" type="b2602c69:ProjectViewProjectNode" />
+              <item name="twitterPredictor" type="462c0819:PsiDirectoryNode" />
+              <item name="Dash_visual" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="twitterPredictor" type="b2602c69:ProjectViewProjectNode" />
@@ -171,8 +195,50 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.management_dataframe">
-    <configuration name="management_dataframe" type="PythonConfigurationType" factoryName="Python" temporary="true">
+  <component name="RunManager" selected="Python.analyse_result">
+    <configuration name="analyse_result" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitterPredictor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="C:/ProgramData/Anaconda3/Lib/site-packages/nltk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:/ProgramData/Anaconda3/Lib/site-packages/nltk/analyse_result.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="data" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="twitterPredictor" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="C:/ProgramData/Anaconda3/Lib/site-packages/nltk" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="C:/ProgramData/Anaconda3/Lib/site-packages/nltk/data.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="graphique" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitterPredictor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -184,7 +250,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_analysis/management_dataframe.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_analysis/graphique.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -193,7 +259,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="search" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="prise_en_compte_opinion" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitterPredictor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -201,11 +267,11 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_collect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_collect/search.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_analysis/prise_en_compte_opinion.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -214,7 +280,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="storage" type="PythonConfigurationType" factoryName="Python" temporary="true">
+    <configuration name="text_blob" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="twitterPredictor" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -222,69 +288,33 @@
         <env name="PYTHONUNBUFFERED" value="1" />
       </envs>
       <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_collect" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_analysis" />
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_collect/storage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_analysis/text_blob.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="twitter_connection_setup" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="twitterPredictor" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_collect" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="pytest in test_dataframe.py" type="tests" factoryName="py.test" temporary="true" nameIsGenerated="true">
-      <module name="twitterPredictor" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/twitter_collect" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="_new_keywords" value="&quot;&quot;" />
-      <option name="_new_additionalArguments" value="&quot;&quot;" />
-      <option name="_new_target" value="&quot;$PROJECT_DIR$/twitter_collect/test_dataframe.py&quot;" />
-      <option name="_new_targetType" value="&quot;PATH&quot;" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python tests.pytest in test_dataframe.py" />
-      <item itemvalue="Python.search" />
-      <item itemvalue="Python.twitter_connection_setup" />
-      <item itemvalue="Python.storage" />
-      <item itemvalue="Python.management_dataframe" />
+      <item itemvalue="Python.graphique" />
+      <item itemvalue="Python.prise_en_compte_opinion" />
+      <item itemvalue="Python.text_blob" />
+      <item itemvalue="Python.data" />
+      <item itemvalue="Python.analyse_result" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.management_dataframe" />
-        <item itemvalue="Python.storage" />
-        <item itemvalue="Python tests.pytest in test_dataframe.py" />
-        <item itemvalue="Python.search" />
-        <item itemvalue="Python.twitter_connection_setup" />
+        <item itemvalue="Python.analyse_result" />
+        <item itemvalue="Python.prise_en_compte_opinion" />
+        <item itemvalue="Python.text_blob" />
+        <item itemvalue="Python.data" />
+        <item itemvalue="Python.graphique" />
       </list>
     </recent_temporary>
   </component>
@@ -324,20 +354,20 @@
     </history-entry>
   </component>
   <component name="ToolWindowManager">
-    <frame x="762" y="0" width="781" height="830" extended-state="0" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3091398" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.15201586" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.33524355" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.33427763" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.39943343" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Python Console" order="8" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.3286119" />
+      <window_info anchor="bottom" id="Python Console" order="8" visible="true" weight="0.32719547" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -371,16 +401,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="136">
           <caret line="17" column="23" selection-start-line="17" selection-start-column="23" selection-end-line="17" selection-end-column="23" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_collect/tweet_collect_whole.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="67">
-          <caret line="53" column="63" lean-forward="true" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
         </state>
       </provider>
     </entry>
@@ -402,15 +422,10 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="153">
           <caret line="9" column="100" selection-start-line="9" selection-start-column="100" selection-end-line="9" selection-end-column="100" />
-          <folding>
-            <marker date="1542290766717" expanded="true" signature="286:291" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_collect/test.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/test.py" />
     <entry file="file://$PROJECT_DIR$/twitter_collect/test.json">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
@@ -418,9 +433,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="119">
           <caret line="7" selection-start-line="7" selection-end-line="7" />
-          <folding>
-            <marker date="1542290027832" expanded="true" signature="132:137" ph="..." />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -431,57 +443,147 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" selection-start-line="2" selection-end-line="2" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/twitter_collect/test_dataframe.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="170">
           <caret line="10" selection-start-line="10" selection-end-line="10" />
-          <folding>
-            <element signature="e#0#34#0" expanded="true" />
-          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/.coverage">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/tweets_collection.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/twitter_connection_setup.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="13" selection-start-column="13" selection-end-column="13" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter_collect/search.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="238">
-          <caret line="14" column="39" selection-start-line="14" selection-start-column="39" selection-end-line="14" selection-end-column="39" />
+        <state relative-caret-position="187">
+          <caret line="11" column="5" selection-start-line="11" selection-start-column="5" selection-end-line="12" selection-end-column="43" />
           <folding>
             <marker date="1542287822944" expanded="true" signature="610:611" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_collect/tweets_collection.py">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/twitter_collect/storage.py">
+    <entry file="file://$PROJECT_DIR$/twitter_collect/tweet_collect_whole.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="170">
-          <caret line="31" column="102" selection-start-line="31" selection-start-column="102" selection-end-line="31" selection-end-column="102" />
-          <folding>
-            <element signature="e#0#19#0" expanded="true" />
-            <marker date="1542297416008" expanded="true" signature="721:724" ph="..." />
-            <marker date="1542297416008" expanded="true" signature="1461:1851" ph="..." />
-          </folding>
+        <state relative-caret-position="901">
+          <caret line="53" column="63" lean-forward="true" selection-start-line="53" selection-start-column="63" selection-end-line="53" selection-end-column="63" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/twitter_analysis/management_dataframe.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="323">
-          <caret line="19" column="4" lean-forward="true" selection-start-line="19" selection-start-column="4" selection-end-line="19" selection-end-column="4" />
+        <state>
+          <caret selection-end-line="1" selection-end-column="35" />
           <folding>
             <element signature="e#0#18#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_analysis/graphique.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" selection-start-line="11" selection-end-line="11" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_collect/storage.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-833">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+          <folding>
+            <element signature="e#0#19#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_analysis/text_blob.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="16" column="23" lean-forward="true" selection-start-line="16" selection-start-column="23" selection-end-line="16" selection-end-column="23" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/twitter_analysis/prise_en_compte_opinion.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="20" column="24" selection-start-line="20" selection-start-column="24" selection-end-line="20" selection-end-column="24" />
+          <folding>
+            <element signature="e#0#29#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/nltk/data.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="13243">
+          <caret line="835" selection-start-line="835" selection-end-line="835" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dash_visual/exemple_graphe2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dash_visual/exemple_graphe.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="37" selection-start-column="37" selection-end-column="37" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://C:/ProgramData/Anaconda3/Lib/site-packages/nltk/analyse_result.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="153">
+          <caret line="9" selection-start-line="9" selection-end-line="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dash_visual/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="220">
+          <caret line="27" column="9" lean-forward="true" selection-start-line="27" selection-start-column="9" selection-end-line="27" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dash_visual/exemple_graphe3.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-596">
+          <caret line="11" column="109" selection-start-line="11" selection-start-column="109" selection-end-line="11" selection-end-column="109" />
+          <folding>
+            <element signature="e#24#35#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Dash_visual/exemple_graphe4.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="24" column="30" selection-start-line="24" selection-start-column="30" selection-end-line="24" selection-end-column="30" />
+          <folding>
+            <element signature="e#0#11#0" expanded="true" />
           </folding>
         </state>
       </provider>

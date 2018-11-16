@@ -18,7 +18,7 @@ def collect(query):
     return liste_tweet_text
 
 #pb de genre
-tweets=collect("macron")
+tweets=collect("positif")
 tweets_blob=TextBlob('.'.join(tweets))
 
 tweets_polarity=[]
