@@ -9,12 +9,13 @@ sns.set(style="darkgrid")
 fmri = sns.load_dataset("fmri")
 print(fmri)
 
-#Macron vs Edouard-Philippe
+#ce programme prend 2 candidats et compare le nombres de retweets sur les derniers tweet qui citent ces candidats
 
-dataf=storage.dataframe("Macron")
+dataf=storage.dataframe_comparaison(["chocolatine","pain au chocolat"])
 print(dataf)
 # Plot the responses for different events and regions
 sns.lineplot(x="created_at", y="retweet_count", hue="about", style="about", data=dataf)
 
 
 plt.show()
+
