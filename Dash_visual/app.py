@@ -6,8 +6,9 @@ import dash_html_components as html
 external_stylesheets = ['https://codepen.io/chriddyp/pen/bWLwgP.css']
 
 app = dash.Dash(__name__, external_stylesheets=external_stylesheets)
+"""on def un object app avec un constructeur Dash, puis on lui aplliquera des methodes et on utlisiera ces propriétés"""
 
-app.layout = html.Div(children=[
+app.layout = html.Div(children=[                                   #comme en html, balise Div et H1, imbriquées
     html.H1(children='Hello Dash'),
 
     html.Div(children='''
